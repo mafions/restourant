@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FiGmA</title>
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="./">
+    <!-- Font aWesome -->
+    <link rel="stylesheet" href="./fontawesome-free-6.1.1-web/css/all.min.css">
+    <!-- style -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <img src="./img/logo/Mask Group.png" alt="LoGo">
+                <span>food</span>
+                <span>waGon</span>
+            </div>
+            <ul>
+                <li>Deliver to: <i class="fa-solid fa-location-dot"></i></li>
+                <li>
+                    <i>Current Location</i>
+                </li>
+                <li><b>Mohammadpur Bus Stand, Dhaka</b></li>
+            </ul>
+            <div class="nav_right">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search Food" id="owner_input" onchange="search()" onkeydown="search()"
+                    onkeyup="search()" onkeypress="search()" />
+                <button>
+                    <div id="nav_search"></div><i class="fa-solid fa-user"></i>Login
+                </button>
+            </div>
+        </nav>
+        <section>
+            <div class="section_center">
+                <div class="section_top">
+                    <h1>Are you starving?</h1>
+                    <p>Within a few clicks, find meals that are accessible near you</p>
+                    <div class="section_bottom">
+                        <div class="ul_papa">
+                            <div class="ul_3Parent ul_1_son">
+                                <ul>
+                                    <img src="./img/logo/Icon.png" alt="motosikl">
+                                    <li>Delivery</li>
+                                </ul>
+                            </div>
+                            <div class="ul_3Parent">
+                                <ul>
+                                    <img src="./img/logo/icon_bag.png" alt="sumka">
+                                    <li>Pickup</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="section_past">
+                            <div class="i"><i class="fa-solid fa-location-dot"></i></div>
+                            <input type="text" name="" id="Search_input" placeholder="Enter Your Adress">
+                            <button><i class="fa-solid fa-magnifying-glass"></i>Find Food</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="section_right">
+                    <img src="./img/rasmlar/rolton.png" alt="pitsa">
+                </div>
+            </div>
+        </section>
+        <div class="section_2">
+            <div class="Cards_Parent" id="Qidiring">
+            </div>
+        </div>
+    </div>
+    <div class="section_3">
+        <h1>How does it work</h1>
+        <div class="reklam_parent"></div>
+        <div class="popular_items" id="Qidiring"></div>
+        <div class="restourant" id="Qidiring"></div>
+    </div>
+    <div class="section_4">
+        <!-- <div class="slide"></div> -->
+        <div class="top">
+            <h1>Search by Food</h1>
+            <div class="i_group">
+                <i class="fa-solid fa-arrow-left"></i>
+                <i class="fa-solid fa-arrow-right"></i>
+            </div>
+        </div>
+        <div class="fass_food"></div>
+    </div>
+    <div class="section_5">
+        <!-- <h1>salom</h1> -->
+        <div class="chegirmalar"></div>
+        <div class="section_button">
+            <div class="btn_left">
+                <img src="./img/rasmlar/phone.png" alt="">
+            </div>
+            <div class="btn_right">
+                <h1>Install the app</h1>
+                <p>It's never been easier to order food. Look for the finest discounts and you'll be lost in a world
+                    of delectable food.</p>
+                <div class="img_group">
+                    <img src="./img/rasmlar/Google Play.png">
+                    <img src="./img/rasmlar/App Store Download.png">
+                </div>
+            </div>
+        </div>
+        <div class="line"></div>
+    </div>
+    <div class="canel">
+        <div class="parent">
+            <div class="cards_1">
+                <div class="box_left">
+                    <h1>Best deals Crispy Sandwiches</h1>
+                    <p>Enjoy the large size of sandwiches. Complete
+                        perfect slice of sandwiches.</p>
+                    <button class="gb_btn">Proceed to order</button>
+                </div>
+                <div class="box_right">
+                    <img src="./img/rasmlar/sandvich.png" alt="rasm">
+                </div>
+            </div>
+            <div class="cards_1">
+                <div class="box_right">
+                    <img src="./img/rasmlar/shashlik.png" alt="rasm">
+                </div>
+                <div class="box_left">
+                    <h1>Celebrate parties
+                        with Fried Chicken</h1>
+                    <p>Get the best fried chicken smeared with a lip smacking lemon chili flavor. Check out
+                        best deals for fried chicken.</p>
+                    <button class="gb_btn">Proceed to order</button>
+                </div>
+            </div>
+            <div class="cards_1">
+                <div class="box_left">
+                    <h1>Wanna eat hot
+                        & spicy Pizza?</h1>
+                    <p>Pair up with a friend and enjoy the
+                        hot and crispy pizza pops. Try it
+                        with the best deals.</p>
+                    <button class="gb_btn">Proceed to order</button>
+                </div>
+                <div class="box_right">
+                    <img src="./img/rasmlar/donar_pitsa.png" alt="rasm">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="button_top">
+        <h1>Are you ready to order with the best deals?</h1>
+        <button class="gb_btn">Proceed to order</button>
+    </div>
+    <footer>
+        <div class="container">
+            <h3>Our top cities</h3>
+            <div class="top">
+                <div class="one1">
+                    <p>San francisco</p>
+                    <p>Miami</p>
+                    <p>San diego</p>
+                    <p>East bay</p>
+                    <p>Long beach</p>
+                </div>
+                <div class="two1">
+                    <p>Los angeles</p>
+                    <p>Wahington</p>
+                    <p>Seatle</p>
+                    <p>Portland</p>
+                    <p>Navshille</p>
+                </div>
+                <div class="three1">
+                    <p>New york</p>
+                    <p>Orange county</p>
+                    <p>Atlanta</p>
+                    <p>Charlotte</p>
+                    <p>Denver</p>
+                </div>
+                <div class="four1">
+                    <p>Chicago</p>
+                    <p>Phoenix</p>
+                    <p>Las vegas</p>
+                    <p>Sacramento</p>
+                    <p>Oklahoma city</p>
+                </div>
+                <div class="five1">
+                    <p>Columbus</p>
+                    <p>New mexico</p>
+                    <p>Albuquerque</p>
+                    <p>Sacramento</p>
+                    <p>New orleans</p>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="bottom">
+
+                <div class="left10">
+
+                    <div class="bir">
+                        <h3>Our company</h3>
+                        <div class="p">
+                            <p>About us</p>
+                            <p>Team</p>
+                            <p>Careers</p>
+                            <p>Blog</p>
+                        </div>
+                    </div>
+
+                    <div class="ikki">
+                        <h3>Contact</h3>
+                        <div class="p">
+                            <p>Help and Support</p>
+                            <p>Partner with us</p>
+                            <p>Ride with us</p>
+                        </div>
+                    </div>
+                    <div class="uch">
+                        <h3>Legal</h3>
+                        <div class="p">
+                            <p>Terms and conditions<p>
+                            <p>Refund and Cansellation</p>
+                            <p>Privacy policy</p>
+                            <p>Cookie policy</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="right10">
+                    <h3>Follow us</h3>
+                    <div class="icons">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <h3>Receive exclusive offers in your mailbox</h3>
+                    <input type="email" placeholder="Enter your email">
+                    <button class="subs">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- JS -->
+    <script src="./app.js"></script>
+</body>
+
+</html>
